@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url('images/background.jpg'); /* Example background image for the entire page */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    background-image: url('images/header-background.jpg'); /* Background image for the header */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #45a049;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for main content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the main content */
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for forms */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Shadow effect for forms */
+}
+
+form input, form select, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#animalList div {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#register {
+    background-image: url('images/register-background.jpg'); /* Background image for Register section */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#login {
+    background-image: url('images/login-background.jpg'); /* Background image for Login section */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#animals {
+    background-image: url('images/animals-background.jpg'); /* Background image for Animals section */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#addAnimal {
+    background-image: url('images/add-animal-background.jpg'); /* Background image for Add Animal section */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contactUs {
+    background-image: url('images/contact-us-background.jpg'); /* Background image for Contact Us section */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
